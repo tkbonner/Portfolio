@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> Tayla Bonner</title>
+<!-- Module 5 Coding Assignment -->
+</head>
+<body>
+  <form action="http://jenniferterrywatson.com/form.php" target="_blank" method="POST">
+  <p>Thanks for visiting the website. Please leave your comments below.</p>
+    <div>
+     <label for="name">Your name:</label>
+     <input type="text" id="name" name="name" placeholder="First and Last Name">
+    </div>
+    <div>
+     <label for="subject">Subject:</label>
+     <input type="text" id="subject" name="subject">
+    </div>
+    <div>
+     <label for="email">E-mail:</label>
+     <input type="text" id="email" name="email">
+    </div>
+  
+    <p>Do you like this website?
+      <input type="radio" name="likeit" value="Yes" id="yes">
+      <label for="yes">Yes</label>
+      <input type="radio" name="likeit" value="No" id="no">
+      <label for="no">No</label>
+      <input type="radio" name="likeit" value="Notsure" id="notsure">
+      <label for="notsure">Not sure</label>
+    </p>
+    
+   <p>How did you find us?
+    <select name="option">
+      <option value="select">--Please select--</option>
+      <option value="google">Google</option>
+      <option value="yahoo">Yahoo</option>
+      <option value="website">Link from a website</option>
+      <option value="word">Word of mouth</option>
+      <option value="other">Other</option>
+    </select>
+    </p>
+    <div>
+      <label for="comments">Comments:</label><br>
+       <textarea id="comments" name="comments" rows="10" cols="40"></textarea>
+    </div> 
+    
+   <p><input type="submit" value="Send it!"></p>
+</form>
+</body>
+</html>
