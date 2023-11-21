@@ -1,0 +1,161 @@
+body{
+    background: linear-gradient(to bottom, #f5f2eb 45%, #728c69 140%)
+}
+
+#header-image{
+  top: 10px;
+  position: relative;
+}
+
+#header-image img{
+  width: 100%;
+  margin: none;
+  padding: none;
+  height: 350px;
+}
+
+#image-header-text{
+  position: absolute;
+    top: 60%;
+    left: 10%;
+    color: #000;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+  text-align: justify;
+  margin-left: 75px;
+  margin-right: 75px;
+  line-height: 30px;
+  font-size: 14pt;
+}
+
+#p{
+  text-align: justify;
+  margin-left: 75px;
+  margin-right: 75px;
+  line-height: 28px;
+  font-size: 14pt;
+  padding-top: 40px;
+}
+
+#ode{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.poem{
+  margin-top: 50px;
+  margin-bottom: 75px;
+  display: flex;
+  padding-left: 125px;
+padding-right: 125px;
+}
+
+.columns{
+flex: 50%;
+justify-content: center;
+}
+
+.parent{
+    border: 1px double #481f01;
+    border-width: 10px;
+    padding: 5px;
+    margin: auto;
+    height: 700px;
+    width: 1150px;
+    align-content: center;
+
+}
+
+.child{
+  display: inline-block;
+  padding: 10px;
+  vertical-align: middle;
+
+}
+
+.child2{
+  display: inline-block;
+  padding: 10px;
+  vertical-align: middle;
+  border: 1px solid black;
+  border-style: dashed;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 15px;
+  
+}
+#in-container{
+  text-align: left;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 20pt;
+}
+.recipe{
+  list-style-type: square;
+  line-height: 25px;
+  font-size: 14pt;
+}
+
+#more{
+  color: rgb(93, 65, 252);
+  text-decoration-line: none;
+}
+
+h2{
+  padding-left: 30px;
+  padding-top: 30px;
+  text-align: left;
+}
+
+#p2{
+  text-align: center;
+  padding-bottom: 40px;
+  line-height: 28px;
+  font-size: 18pt;
+  padding-top: 100px;
+}
+
+ol{
+  margin-left: 60px;
+  line-height: 24px;
+  font-size: 14pt;
+  
+}
+
+li{
+  margin-bottom: 15px;
+}
+
+
+#floatright{
+  float: right;
+padding-left: 15px;
+padding-bottom: 15px;
+margin-right: 70px;}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 10%;
+
+}
+
+
+.round{
+  border-radius: 50%;
+}
+
+.p3{
+  text-align: center;
+  
+}
+
+
+a{
+  color: rgb(254, 244, 232);
+  text-decoration-line: none;
+}
